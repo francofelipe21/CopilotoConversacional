@@ -1,6 +1,7 @@
 # Execution instructions #
 
 Python version: 3.13.3
+
 To run the chatbot follow the steps below:
     1. Install the libraries in the file requeriments.txt
     2. In the backend folder run fastapi dev server.py
@@ -45,4 +46,5 @@ sensitive information. In addition to the above, the project could also be impro
 comparison and classification functionality. For the first task, I would create an index for each document, 
 which could be compared by an LLM. For the second task, I would create clusters for the documents and, using 
 the k-means algorithm and a set of representative documents per category, the category of each document could 
+
 be classified.
